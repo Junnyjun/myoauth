@@ -4,4 +4,4 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: https://idp.example.com/issuer
-          jwk-set-uri: https://idp.example.com/.well-known/jwks.json
+          audiences: http://oauth2.junnyland.com
